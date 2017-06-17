@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_activite"
+    tools:context="com.example.duc_joffrey_esig.hessdf.ContactFragment">
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_contact_question"
+        android:textSize="@dimen/contact_titleSize"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texte_contact_instructions"
+        android:layout_below="@+id/titre"
+        android:layout_marginTop="@dimen/espacement_paragraphe_titre"/>
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instructions"
+        android:text="@string/contact_mail"
+        android:textStyle="bold"
+        android:textSize="@dimen/contact_mailSize"
+        android:layout_centerHorizontal="true"
+        android:autoLink="email"
+        android:textColorLink="@android:color/holo_blue_dark"
+        android:layout_marginTop="@dimen/espacement_paragraphe" />
+
+    <View
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/contact_hr_width"
+        android:layout_height="@dimen/contact_hr_height"
+        android:background="@color/grisFonce"
+        android:layout_below="@+id/mail"
+        android:layout_marginTop="@dimen/espacement_paragraphe_titre"/>
+
+</RelativeLayout>

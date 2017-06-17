@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragment_aide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.duc_joffrey_esig.hessdf.AideFragment">
+
+        <TextView
+            android:id="@+id/titremap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_item_map"
+            android:textStyle="bold"
+            android:textSize="@dimen/aide_titres"
+            android:textColor="@android:color/black"
+            android:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/paragraphe1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="@string/aide_paragraphe1"
+            android:layout_below="@+id/titremap"
+            android:layout_marginTop="@dimen/espacement_paragraphe"/>
+
+        <ImageView
+            android:id="@+id/image_marqueur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/paragraphe1"
+            android:src="@drawable/aide_1"
+            android:layout_marginTop="-30dp"/>
+
+        <TextView
+            android:id="@+id/paragraphe2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_marqueur"
+            android:fontFamily="serif"
+            android:text="@string/aide_paragraphe2"
+            android:layout_marginTop="-30dp" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/aide_2"
+            android:layout_below="@id/paragraphe2"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/paragraphe3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image2"
+            android:fontFamily="serif"
+            android:text="@string/aide_paragraphe3" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/aide_3"
+            android:layout_below="@id/paragraphe3"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/paragraphe4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image3"
+            android:fontFamily="serif"
+            android:text="@string/aide_paragraphe4"
+            android:layout_marginBottom="@dimen/espacement_paragraphe"/>
+
+        <TextView
+            android:id="@+id/titreautour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_item_autourDeMoi"
+            android:textStyle="bold"
+            android:textSize="@dimen/aide_titres"
+            android:textColor="@android:color/black"
+            android:fontFamily="serif"
+            android:layout_below="@id/paragraphe4" />
+
+        <TextView
+            android:id="@+id/paragraphe5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titreautour"
+            android:fontFamily="serif"
+            android:text="@string/aide_paragraphe5"
+            android:layout_marginBottom="@dimen/espacement_paragraphe" />
+
+        <TextView
+            android:id="@+id/titreassociations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_item_associations"
+            android:textStyle="bold"
+            android:textSize="@dimen/aide_titres"
+            android:textColor="@android:color/black"
+            android:fontFamily="serif"
+            android:layout_below="@id/paragraphe5" />
+
+        <TextView
+            android:id="@+id/paragraphe6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titreassociations"
+            android:fontFamily="serif"
+            android:text="@string/aide_paragraphe6"
+            android:layout_marginBottom="@dimen/espacement_paragraphe" />
+
+    </RelativeLayout>
+
+</ScrollView>

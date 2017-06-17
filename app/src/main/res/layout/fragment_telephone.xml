@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_telephone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.duc_joffrey_esig.hessdf.TelephoneFragment"
+    android:padding="@dimen/padding_activite">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texte_telephone_titre"
+        android:textSize="@dimen/titre"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="120dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="call112"
+        android:text="@string/texte_telephone_bouton"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_appeler"
+        android:textColor="@android:color/white"
+        android:drawableStart="@drawable/ic_telephone"
+        android:drawableLeft="@drawable/ic_telephone"
+        android:padding="@dimen/padding_button"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texte_telephone_infos"
+        android:layout_marginTop="@dimen/telephone_UE_marginTop"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/btnCall"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"/>
+
+</RelativeLayout>

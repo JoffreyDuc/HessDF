@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/autour_items_padding">
+
+    <ImageView
+        android:layout_width="@dimen/autour_image_width"
+        android:layout_height="@dimen/autour_img_height"
+        android:id="@+id/imgAssociationAutour" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNomAssociationAutour"
+        android:text="@string/app_name"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="@dimen/autour_text_marginleft"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/imgAssociationAutour"
+        android:layout_toRightOf="@+id/imgAssociationAutour"
+        android:textSize="@dimen/autour_taille_nom_association"/>
+
+    <TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_below="@+id/tvNomAssociationAutour"
+        android:layout_alignLeft="@+id/tvNomAssociationAutour"
+        android:textSize="@dimen/autour_taille_distance"/>
+
+</RelativeLayout>

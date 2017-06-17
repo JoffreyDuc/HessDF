@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/associations"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/association_paddingbottom"
+    android:paddingLeft="@dimen/association_paddingleft"
+    android:paddingRight="@dimen/association_paddingright"
+    android:paddingTop="@dimen/association_paddingtop"
+    tools:context=".AssociationsActivity"
+    android:background="@color/grisClair">
+
+    <GridView
+        android:id="@+id/gridViewAssociations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:numColumns="2"
+        android:horizontalSpacing="@dimen/association_horizontalspacing"
+        android:verticalSpacing="@dimen/association_verticalspacing"/>
+
+</LinearLayout>

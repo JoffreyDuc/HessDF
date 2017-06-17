@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- On insère un groupe de checkbox pour que quand on clique sur un élément du menu ça le met en surbrillance pour savoir où on est-->
+    <group android:checkableBehavior="single">
+        <!-- Et on change l'icône des checkbox par des petites images pour pas que ça se voit-->
+        <item
+            android:id="@+id/menu_item_accueil"
+            android:icon="@drawable/ic_accueil"
+            android:title="@string/menu_item_accueil" />
+        <item
+            android:id="@+id/menu_item_map"
+            android:icon="@drawable/ic_map"
+            android:title="@string/menu_item_map" />
+        <item
+            android:id="@+id/menu_item_autourDeMoi"
+            android:icon="@drawable/ic_autour_de_moi"
+            android:title="@string/menu_item_autourDeMoi" />
+        <item
+            android:id="@+id/menu_item_associations"
+            android:icon="@drawable/ic_associations"
+            android:title="@string/menu_item_associations" />
+
+       <item
+            android:id="@+id/menu_item_contact"
+            android:icon="@drawable/ic_contact"
+            android:title="@string/menu_item_contact" />
+
+       <item
+            android:id="@+id/menu_item_aide"
+            android:icon="@drawable/ic_aide"
+            android:title="@string/menu_item_aide" />
+
+        <item
+            android:id="@+id/footer_spacer_1"
+            android:checkable="false"
+            android:enabled="false"
+            android:orderInCategory="200"
+            android:title="" />
+    </group>
+
+</menu>

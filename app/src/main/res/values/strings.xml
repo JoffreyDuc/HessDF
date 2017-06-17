@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Hess DF</string>
+
+    <string name="navigation_drawer_open">Ouvrir navigation drawer</string>
+    <string name="navigation_drawer_close">Fermer navigation drawer</string>
+
+    <string name="menu_item_accueil">Accueil</string>
+    <string name="menu_item_map">Map</string>
+    <string name="menu_item_autourDeMoi">Autour de moi</string>
+    <string name="menu_item_associations">Associations</string>
+    <string name="menu_item_contact">Contact</string>
+    <string name="menu_item_aide">Aide</string>
+    <string name="menu_item_footer">Numéros utiles</string>
+
+    <string name="texte_accueil_titre">Bonjour et bienvenue sur l\'application Hess DF !</string>
+    <string name="texte_accueil_paragraphe_1">Cette application a été développée par Duc Joffrey, et a été réalisée dans le cadre du cours de développement mobile de 2ème année à l\'Ecole Supérieure d\'Informatique de Gestion à Genève.</string>
+    <string name="texte_accueil_paragraphe_2">"Hess DF" a pour but d\'aider les personnes sans abris et les animaux dans le besoin, au moyen d\'une map que les utilisateurs rempliront de marqueurs pour localiser les êtres dans le besoin. Il y a également un onglet pour savoir ce qu\'il y a autour de soi, quelles associations se trouvent à Genève, etc.</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="localisationNotGranted">Vous devez autoriser la localisation pour accéder à cette fonctionnalité.</string>
+    <string name="appLocalisationNotGranted">Cette application nécessite que la permission de localisation soit autorisée.</string>
+
+    <string name="phoneNotGranted">Vous devez autoriser la permission téléphoner pour accéder à cette fonctionnalité.</string>
+    <string name="appPhoneNotGranted">Cette application nécessite que la permission d\'appeler soit autorisée.</string>
+
+    <string name="texte_telephone_titre">En cas d\'urgence, appellez ce numéro :</string>
+    <string name="texte_telephone_bouton">Appeller le 112</string>
+    <string name="texte_telephone_infos">Numéro valable dans toute l\'Union européenne.</string>
+    <string name="title_activity_associations">Asssociations</string>
+
+    <string name="title_contact_question">Vous rencontrez un bug? Vous avez des questions?</string>
+    <string name="texte_contact_instructions">Vous pouvez contacter le développeur à cette adresse mail :</string>
+    <string name="contact_hint_sujet">Titre</string>
+    <string name="contact_hint_message">Votre message</string>
+    <string name="contact_btn_envoyer">Envoyer</string>
+    <string name="contact_mail">joffreyduc@gmail.com</string>
+    <string name="menu_description">L\'application qui vient en aide aux plus démunis</string>
+
+    <string name="aide_paragraphe1">La map est la fonctionnalité principale de l\'application. Elle permet à tous les utilisateurs de savoir où se trouvent les êtres dans le besoin et quand ils ont été aperçu.</string>
+    <string name="aide_paragraphe2">Un marqueur reste sur la map durant 24 heures. Si vous apercevez quelqu\'un n\'hésitez pas à ajouter un marqueur en cliquant sur le bouton en bas à droit de votre écran :</string>
+    <string name="aide_paragraphe3">Vous n\'aurez ensuite qu\'à sélectionner quel type d\'être c\'est parmi la liste qui s\'affiche</string>
+    <string name="aide_paragraphe4">Suivez ensuite les instructions pour placer votre marqueur et il s\'ajoutera automatiquement dans notre base de données.</string>
+    <string name="aide_paragraphe5">L\'onglet Autour de moi vous liste toutes les associations d\'aide humanitaire et animale, en vous informant de leur distance par rapport à votre emplacement. Cliquez sur une association pour la localiser sur la map.</string>
+    <string name="aide_paragraphe6">L\'onglet Associations vous liste également toutes les associations. Pour avoir plus d\'informations, cliquez sur une association pour ouvrir leur site Web.</string>
+
+
+</resources>

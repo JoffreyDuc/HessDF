@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="btn_map_ajouter_margin">16dp</dimen>
+
+    <!-- On réécrit la taille de design_fab_image_size pour augmenter la taille de l'image qu'il contient -->
+    <dimen name="design_fab_image_size" tools:override="true">36dp</dimen>
+
+    <dimen name="titre">24sp</dimen>
+    <dimen name="espacement_paragraphe">14dp</dimen>
+    <dimen name="espacement_paragraphe_titre">20dp</dimen>
+
+    <dimen name="padding_button">8dp</dimen>
+    <dimen name="padding_activite">10dp</dimen>
+
+    <dimen name="autour_image_width">80dp</dimen>
+    <dimen name="autour_img_height">65dp</dimen>
+    <dimen name="autour_text_marginleft">12dp</dimen>
+    <dimen name="autour_taille_nom_association">16sp</dimen>
+    <dimen name="autour_taille_distance">15sp</dimen>
+    <dimen name="autour_items_padding">10dp</dimen>
+
+    <dimen name="association_paddingbottom">2dp</dimen>
+    <dimen name="association_paddingleft">8dp</dimen>
+    <dimen name="association_paddingright">8dp</dimen>
+    <dimen name="association_paddingtop">2dp</dimen>
+    <dimen name="association_horizontalspacing">8dp</dimen>
+    <dimen name="association_verticalspacing">8dp</dimen>
+    <dimen name="associations_image_height">150dp</dimen>
+    <dimen name="associations_nom_height">65dp</dimen>
+    <dimen name="associations_nom_textSize">17sp</dimen>
+
+    <dimen name="contact_titleSize">16sp</dimen>
+    <dimen name="contact_mailSize">18sp</dimen>
+    <dimen name="contact_hr_width">300dp</dimen>
+    <dimen name="contact_hr_height">1dp</dimen>
+
+    <dimen name="menu_btnTelephone_height">48dp</dimen>
+    <dimen name="menu_btnTelephone_paddingLeft">20dp</dimen>
+    <dimen name="menu_btnTelephone_paddingRight">30dp</dimen>
+    <dimen name="menu_titre_textSize">45sp</dimen>
+    <dimen name="menu_titre_paddingTop">24dp</dimen>
+    <dimen name="menu_titre_paddingBottom">10dp</dimen>
+    <dimen name="menu_description_textSize">11sp</dimen>
+
+    <dimen name="frameLayout_marginTop">55dp</dimen>
+    <dimen name="frameLayout_padding">8dp</dimen>
+    <dimen name="frameLayout_paddingTop">0dp</dimen>
+
+    <dimen name="accueil_image_height">200dp</dimen>
+
+    <dimen name="telephone_UE_marginTop">23dp</dimen>
+
+    <dimen name="aide_titres">18sp</dimen>
+
+</resources>
